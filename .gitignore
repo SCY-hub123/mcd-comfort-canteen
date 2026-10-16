@@ -1,0 +1,17 @@
+# 敏感信息：MCP Token 绝不上传
+.env
+.env.*
+*.env
+mcp-config.json
+!mcp-config.example.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
